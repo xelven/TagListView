@@ -209,8 +209,8 @@ open class TagListView: UIView {
         }
     }
 
-    public func getTagListViewHeight -> CGFloat{
-        return tagViewHeight*rows
+    public func getTagListViewHeight() -> CGFloat {
+        return CGFloat(tagViewHeight * CGFloat(rows))
     }
     
     // MARK: - Interface Builder
