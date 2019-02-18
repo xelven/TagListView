@@ -208,6 +208,10 @@ open class TagListView: UIView {
             invalidateIntrinsicContentSize()
         }
     }
+
+    public func getTagListViewHeight -> CGFloat{
+        return tagViewHeight*rows
+    }
     
     // MARK: - Interface Builder
     
